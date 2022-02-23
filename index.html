@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pennies Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="theBox">Pennies Claculator</h1>
+    
+    <h2 id="theGiven" >Input the amount of Pennies you have to calculate the amount of </h2>
+
+    <p id="theAmount" >Enter the Amount of Pennies You </p><input type="text" id="pennyInput">
+<br>
+
+<table>
+    <tr>
+        <td># of Dollars </td>
+        <td id="dollarsNeeded">0</td>
+    </tr>
+    <tr>
+        <td># of Quarters </td>
+        <td id="quartersNeeded">0</td>
+    </tr>
+    <tr>
+        <td># of Dimes </td>
+        <td id="dimesNeeded">0</td>
+    </tr>
+    <tr>
+        <td># of Nickels </td>
+        <td id="nickelsNeeded">0</td>
+    </tr>
+    <tr>
+        <td># of Pennies </td>
+        <td id="penniesNeeded">0</td>
+    </tr>
+
+</table>
+
+    <button id="calculate" onclick="calculate()">Calculate</button>
+    <button id="clear" onclick="window.location.href='http://127.0.0.1:5500/index.html'">Clear</button>
+
+    <script src="script/script.js" ></script>
+</body>
+</html>
