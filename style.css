@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    color: black;
+}
+
+table, tr, td{
+    color: black;
+    text-align: center;
+}
+
+button{
+    color: gold;
+    background-color: black;
+}
+button:hover{
+    color: black;
+    background-color: gold;
+}
+input{
+    background-color: gold;
+    color: black;
+    text-align: center;
+}
